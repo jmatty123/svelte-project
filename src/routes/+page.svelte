@@ -4,7 +4,7 @@
 	
 <style>
 	:global(body) {
-	  @apply bg-black flex items-center justify-center h-screen m-0 p-0;
+	  @apply flex items-center justify-center h-screen m-0 p-0;
 	}
   
 </style>
@@ -24,7 +24,7 @@
 		</div>
   
 		<p id="changelog" class="text-center font-mono text-xs text-white pb-4">
-		  Creation: 5/16/23 | Latest update: 5/19/23 "start navbar"</p>
+		  Creation: 5/16/23 | Latest update: 5/19/23 "repository/framework adjustments"</p>
 	
 	</div>
   
