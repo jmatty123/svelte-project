@@ -1,13 +1,31 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import Map from './Map.svelte';
+</script>
+	
+<style>
+	:global(body) {
+	  @apply bg-black flex items-center justify-center h-screen m-0 p-0;
+	}
+  
+</style>
+  
+<div id="container" class="container h-screen flex flex-col justify-center items-center m-0 p-0 pt-16 overflow-hidden">
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!</li>
-			<li><code class="code">/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant for your project</li>
-			<li><code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
-		</ul>
+	<div id="border" class="box-border border-2 border-white rounded-xl flex flex-col justify-between items-center space-y-4 w-4/5 h-4/5">
+  
+	  <p id="content" class="text-center font-serif font-medium text-white pt-4 px-5">
+		This page was built using <a id="svelteLink" class="underline visited:text-gray-300 active:text-gray-500" href="https://svelte.dev/">Svelte</a>
+		 by <a id="linkedinLink" class="underline visited:text-gray-300 active:text-gray-500" href="https://www.linkedin.com/in/jmatty123/">Matthew Young.</a>
+		<br>This project is a learning experience and will be under constant development. Check back regularly!
+	  </p>
+  
+		<div id="mapdiv" class="flex-grow w-full h-1/2 px-5 overflow-hidden">
+		  <Map />
+		</div>
+  
+		<p id="changelog" class="text-center font-mono text-xs text-white pb-4">
+		  Creation: 5/16/23 | Latest update: 5/19/23 "start navbar"</p>
+	
 	</div>
+  
 </div>
