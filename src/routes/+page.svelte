@@ -9,7 +9,7 @@
   
 </style>
   
-<div id="container" class="container h-screen flex flex-col justify-center items-center m-0 p-0 pt-16 overflow-hidden">
+<div id="container" class="container h-screen flex flex-col justify-center items-center m-0 p-0 overflow-hidden">
 
 	<div id="border" class="box-border border-2 border-white rounded-xl flex flex-col justify-between items-center space-y-4 w-4/5 h-4/5">
   
