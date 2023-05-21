@@ -13,13 +13,19 @@
 	function drawerOpen(): void {
 		drawerStore.open({});
 	}
+
+	import { page } from '$app/stores';
+
+	$: classesSidebar = $page.url.pathname === '/' ? 'w-0' : 'w-0 lg:w-64';
 </script>
 
 <Drawer>
+	<h2 class="p-4">Navigation</h2>
+	<hr />
 	<Navigation />
 </Drawer>
 
-<AppShell slotSidebarLeft="bg-surface-500/5 w-0 lg:w-56">
+<AppShell slotSidebarLeft="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
@@ -33,7 +39,7 @@
 							</svg>
 						</span>
 					</button>
-					<strong class="text-xl uppercase">Skeleton</strong>
+					<strong class="text-xl uppercase">matthewyoung.xyz</strong>
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="trail"></svelte:fragment>
