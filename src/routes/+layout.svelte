@@ -16,7 +16,7 @@
 
 	import { page } from '$app/stores';
 
-	$: classesSidebar = $page.url.pathname === '/' ? 'w-0' : 'w-0 lg:w-64';
+	$: classesSidebar = 'w-0';
 </script>
 
 <Drawer>
@@ -42,7 +42,13 @@
 					<strong class="text-xl"><span class="font-semibold tracking-tight">matthewyoung.<span style="color: cyan;">x</span><span style="color: yellow;">y</span><span style="color: magenta;">z</span></span></strong>
 				</div>
 			</svelte:fragment>
-			<svelte:fragment slot="trail"></svelte:fragment>
+			<svelte:fragment slot="trail">
+				<div class="hidden lg:flex">
+					<a href="/" class="btn">Home</a>
+					<a href="/about" class="btn">About</a>
+					<!-- Add as many buttons as you need -->
+				</div>
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
@@ -52,8 +58,8 @@
 	<slot />
 
 	<svelte:fragment slot="footer">
-		<p id="changelog" class="text-center font-mono text-xs text-white p-2">
-			Creation: 5/16/23 | Latest update: 5/21/23 "Add: sidebar/about page"
+		<p class="text-center font-mono text-xs text-white p-2">
+			Creation: 5/16/23 | Latest update: 5/21/23 "Add: mobile sidebar/navbar/about page"
 		</p>
 	</svelte:fragment>
 </AppShell>
