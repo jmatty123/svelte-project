@@ -7,6 +7,6 @@
     <br>This project is a learning experience and will be under constant development. Check back regularly!
 </p>
 
-<p id="changelog" class="text-center font-mono text-xs text-white p-5">
-    Creation: 5/16/23 | Latest update: 5/21/23 "Add: sidebar/about page"
+<p >
+    
 </p>

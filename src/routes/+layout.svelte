@@ -51,5 +51,9 @@
 
 	<slot />
 
-	<svelte:fragment slot="footer">Footer</svelte:fragment>
+	<svelte:fragment slot="footer">
+		<p id="changelog" class="text-center font-mono text-xs text-white p-2">
+			Creation: 5/16/23 | Latest update: 5/21/23 "Add: sidebar/about page"
+		</p>
+	</svelte:fragment>
 </AppShell>
