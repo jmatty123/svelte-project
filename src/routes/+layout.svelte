@@ -6,22 +6,41 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
+
+	import Navigation from '/src/lib/Navigation/Navigation.svelte';
+
+	function drawerOpen(): void {
+		drawerStore.open({});
+	}
 </script>
 
-<AppShell>
+<Drawer>
+	<Navigation />
+</Drawer>
+
+<AppShell slotSidebarLeft="bg-surface-500/5 w-0 lg:w-56">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
-				<span class="font-semibold text-xl tracking-tight">matthewyoung.<span style="color: cyan;">x</span><span style="color: yellow;">y</span><span style="color: magenta;">z</span></span>
+				<div class="flex items-center">
+					<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+						<span>
+							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
+								<rect width="100" height="20" />
+								<rect y="30" width="100" height="20" />
+								<rect y="60" width="100" height="20" />
+							</svg>
+						</span>
+					</button>
+					<strong class="text-xl uppercase">Skeleton</strong>
+				</div>
 			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<a href="/" class="px-4 text-white hover:text-gray-900">Home</a>
-				<a href="/about" class="px-4 text-white hover:text-gray-900">About</a>
-				<a href="/services" class="px-4 text-white hover:text-gray-900">Services</a>
-				<a href="/contact" class="px-4 text-white hover:text-gray-900">Contact</a>
-			</svelte:fragment>
+			<svelte:fragment slot="trail"></svelte:fragment>
 		</AppBar>
+	</svelte:fragment>
+	<svelte:fragment slot="sidebarLeft">
+		<Navigation />
 	</svelte:fragment>
 
 	<slot />
