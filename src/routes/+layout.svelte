@@ -39,7 +39,7 @@
 							</svg>
 						</span>
 					</button>
-					<strong class="text-xl uppercase">matthewyoung.xyz</strong>
+					<strong class="text-xl"><span class="font-semibold tracking-tight">matthewyoung.<span style="color: cyan;">x</span><span style="color: yellow;">y</span><span style="color: magenta;">z</span></span></strong>
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="trail"></svelte:fragment>
