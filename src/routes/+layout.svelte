@@ -18,7 +18,10 @@
 	$: classesSidebar = 'w-0';
 
 </script>
-
+<svelte:head>
+  <title>matthewyoung.xyz</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</svelte:head>
 <AppShell class="min-h-screen flex flex-col" slotSidebarRight="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
@@ -66,7 +69,7 @@
 		<AppBar gridColumns="grid-cols-1" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead"></svelte:fragment>
 			<p class="text-center font-mono text-xs text-white p-2">
-				Creation: 5/16/23 | Latest update: 5/21/23 "Add: sidebar/navbar/about/footer"
+				Creation: 5/16/23 | Latest update: 5/22/23 "fix: fomatting"
 			</p>
 			<svelte:fragment slot="trail"></svelte:fragment>
 		</AppBar>
