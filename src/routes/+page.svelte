@@ -1,5 +1,5 @@
 <script>
-	import Bordermap from "./BorderWMap.svelte";
+	import BorderWMap from "./BorderWMap.svelte";
 </script>
 
-<Bordermap />
+<BorderWMap />

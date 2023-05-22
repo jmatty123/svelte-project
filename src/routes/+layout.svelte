@@ -19,7 +19,7 @@
 
 </script>
 
-<AppShell slotSidebarRight="bg-surface-500/5 {classesSidebar}">
+<AppShell class="h-screen overflow-hidden flex flex-col" slotSidebarRight="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
@@ -60,9 +60,9 @@
 			<Navigation />
 		</Drawer>
 	</svelte:fragment>
-
-	<slot />
-
+	
+		<slot />
+	
 	<svelte:fragment slot="pageFooter">
 		
 		<AppBar gridColumns="grid-cols-1" slotDefault="place-self-center" slotTrail="place-content-end">
