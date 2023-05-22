@@ -11,7 +11,7 @@
         container: mapContainer,
         style: 'mapbox://styles/mapbox/light-v11', // the style URL
         center: [-77.0369, 38.9072], // the starting longitude and latitude
-        zoom: 11 // the starting zoom
+        zoom: 9 // the starting zoom
       });
     });
   </script>
