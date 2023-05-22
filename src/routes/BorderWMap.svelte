@@ -2,10 +2,15 @@
     import Map from './Map.svelte';
 </script>
 
-<div id="border" class="box-border border-4 border-primary-500 rounded-xl flex justify-center items-center h-4/5 m-4 mt-10">
+
+<div class="w-full h-full flex justify-center items-center">
+
+	<div id="border" class="box-border border-2 border-primary-500 rounded-xl flex justify-center items-center w-4/5 h-4/5 mx-auto">
   
-	<div id="mapdiv" class="w-full h-full p-4 text-center overflow-hidden border-2 border-primary-500">
-		<Map />
-	</div>
+		<div id="mapdiv" class="w-full h-full p-2 text-center overflow-hidden">
+			<Map />
+		</div>
 	
+	</div>
+
 </div>

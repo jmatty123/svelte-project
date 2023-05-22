@@ -55,8 +55,6 @@
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarRight">
 		<Drawer position="right">
-			<h2 class="p-4 text-center">Menu</h2>
-			<hr />
 			<Navigation />
 		</Drawer>
 	</svelte:fragment>
