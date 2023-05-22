@@ -9,9 +9,9 @@
   
       const map = new mapboxgl.Map({
         container: mapContainer,
-        style: 'mapbox://styles/mapbox/light-v11', // the style URL
+        style: 'mapbox://styles/jmatty123/clhy5k88401g701pf5oo518xx', // the style URL
         center: [-77.0369, 38.9072], // the starting longitude and latitude
-        zoom: 9 // the starting zoom
+        zoom: 7 // the starting zoom
       });
     });
   </script>
