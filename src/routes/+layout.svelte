@@ -19,29 +19,14 @@
 
 </script>
 
-<Drawer>
-	<h2 class="p-4">Navigation</h2>
-	<hr />
-	<Navigation />
-</Drawer>
-
-<AppShell slotSidebarLeft="bg-surface-500/5 {classesSidebar}">
+<AppShell slotSidebarRight="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
 					<!-- Mobile Hamburger Button -->
-					<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
-						<span>
-							<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-								<rect width="100" height="20" />
-								<rect y="30" width="100" height="20" />
-								<rect y="60" width="100" height="20" />
-							</svg>
-						</span>
-					</button>
 					<!-- Logo Home Button -->
-					<a href="/" class="hidden lg:flex btn text-xl font-semibold tracking-tight">matthewyoung.
+					<a href="/" class="flex btn text-xl font-semibold tracking-tight">matthewyoung.
 						<div class="flex">
 							<span style="color: cyan;">x</span>
 							<span style="color: yellow;">y</span>
@@ -51,23 +36,29 @@
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
+				<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+					<span>
+						<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
+							<rect width="100" height="20" />
+							<rect y="30" width="100" height="20" />
+							<rect y="60" width="100" height="20" />
+						</svg>
+					</span>
+				</button>
 				<!-- Navbar buttons -->
 				<div class="hidden lg:flex">
 					<a href="/about" class="btn font-semibold text-primary-500">About</a>
 					<!-- More buttons here -->
 				</div>
-				<a href="/" class="lg:hidden btn text-xl font-semibold tracking-tight">matthewyoung.
-					<div class="flex">
-						<span style="color: cyan;">x</span>
-						<span style="color: yellow;">y</span>
-						<span style="color: magenta;">z</span>
-					</div>
-				</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">
-		<Navigation />
+	<svelte:fragment slot="sidebarRight">
+		<Drawer position="right">
+			<h2 class="p-4 text-center">Menu</h2>
+			<hr />
+			<Navigation />
+		</Drawer>
 	</svelte:fragment>
 
 	<slot />
