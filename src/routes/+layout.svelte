@@ -18,10 +18,7 @@
 	$: classesSidebar = 'w-0';
 
 </script>
-<svelte:head>
-  <title>matthewyoung.xyz</title>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-</svelte:head>
+
 <AppShell class="min-h-screen flex flex-col" slotSidebarRight="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">

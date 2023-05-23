@@ -11,7 +11,7 @@
         container: mapContainer,
         style: 'mapbox://styles/jmatty123/clhy5k88401g701pf5oo518xx', // the style URL
         center: [-77.0369, 38.9072], // the starting longitude and latitude
-        zoom: 7 // the starting zoom
+        zoom: 2 // the starting zoom
       });
     });
   </script>
