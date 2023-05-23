@@ -22,6 +22,7 @@
 <AppShell class="min-h-screen flex flex-col" slotSidebarRight="bg-surface-500/5 {classesSidebar}">
 	<svelte:fragment slot="pageHeader">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+			
 			<svelte:fragment slot="lead">
 				<div class="flex items-center">
 					<!-- Mobile Hamburger Button -->
@@ -35,6 +36,7 @@
 					</a>
 				</div>
 			</svelte:fragment>
+
 			<svelte:fragment slot="trail">
 				<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
 					<span>
@@ -51,24 +53,30 @@
 					<!-- More buttons here -->
 				</div>
 			</svelte:fragment>
+
 		</AppBar>
 	</svelte:fragment>
+
 	<svelte:fragment slot="sidebarRight">
 		<Drawer position="right">
 			<Navigation />
 		</Drawer>
 	</svelte:fragment>
-	
+
+	<div class="border-t-2 border-b-2 border-white w-full h-full flex flex-col justify-center items-center">
 		<slot />
-	
+	</div>
+
 	<svelte:fragment slot="pageFooter">
 		
 		<AppBar gridColumns="grid-cols-1" slotDefault="place-self-center" slotTrail="place-content-end">
 			<svelte:fragment slot="lead"></svelte:fragment>
-			<p class="text-center font-mono text-xs text-white p-2">
-				Creation: 5/16/23 | Latest update: 5/22/23 "fix: fomatting"
-			</p>
-			<svelte:fragment slot="trail"></svelte:fragment>
+				
+				<a id="svelteLink" class="visited:text-secondary-300 active:text-primary-800 font-semibold font-white px-2" href="https://svelte.dev/">Svelte</a>
+				<a id="linkedinLink" class="visited:text-secondary-300 active:text-primary-800 font-semibold font-white px-2" href="https://www.linkedin.com/in/jmatty123/">LinkedIn</a>
+				<a id="linkedinLink" class="visited:text-secondary-300 active:text-primary-800 font-semibold font-white px-2" href="https://github.com/jmatty123">Github</a>
+				
+				<svelte:fragment slot="trail"></svelte:fragment>
 		</AppBar>
 
 	</svelte:fragment>
