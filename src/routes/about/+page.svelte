@@ -2,7 +2,7 @@
     import { Accordion, AccordionItem, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="w-5/6 lg:w-1/2">
+<div class="w-5/6 lg:w-1/3">
 <Accordion autocollapse>
 	<AccordionItem open>
 		<svelte:fragment slot="lead"></svelte:fragment>
