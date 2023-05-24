@@ -18,7 +18,7 @@
 
 </script>
 
-<AppShell class="flex flex-col" slotSidebarRight="bg-surface-500/5 w-0">
+<AppShell class="flex flex-col" slotSidebarRight="w-0">
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			
