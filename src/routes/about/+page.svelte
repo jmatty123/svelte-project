@@ -1,20 +1,33 @@
+<script>
+    import { Accordion, AccordionItem, LightSwitch } from '@skeletonlabs/skeleton';
+</script>
 
-<!-- About page -->
+<div class="max-w-xl mx-20">
+<Accordion autocollapse>
+	<AccordionItem open>
+		<svelte:fragment slot="lead"></svelte:fragment>
+		<svelte:fragment slot="summary"><p class="font-semibold text-lg">Who?</p></svelte:fragment>
+		<svelte:fragment slot="content">Thanks for visiting my website! My name is Matt. Im an aspiring developer with certifications in responsive web design, Javascript, and database administration. My goal is to leverage technology in a way that positively impacts the world.</svelte:fragment>
+	</AccordionItem>
+	<AccordionItem>
+		<svelte:fragment slot="lead"></svelte:fragment>
+		<svelte:fragment slot="summary"><p class="font-semibold text-lg">What?</p></svelte:fragment>
+		<svelte:fragment slot="content">I created this project to deepen my understanding of web development and design, learn new techniques, and showcase the skills I've picked up along the way! This project is a learning experience and will be under constant development. Check back often to see what I'm working on!</svelte:fragment>
+	</AccordionItem>
+    <AccordionItem>
+		<svelte:fragment slot="lead"></svelte:fragment>
+		<svelte:fragment slot="summary"><p class="font-semibold text-lg">Why?</p></svelte:fragment>
+		<svelte:fragment slot="content">Why not? I can put whatever I want on the internet now.</svelte:fragment>
+	</AccordionItem>
+	<!-- ... -->
+</Accordion>
+</div>
 
-<h1 class="text-center text-2xl">About</h1>
-
-<p id="content" class="text-center font-serif font-medium text-white pt-10 px-[5%]">
-    This page was built using 
-    <a id="svelteLink" class="underline text-primary-500 visited:text-secondary-300 active:text-primary-800" href="https://svelte.dev/">
-        Svelte
-    </a>
-    by 
-    <a id="linkedinLink" class="underline text-primary-500 visited:text-secondary-300 active:text-primary-800" href="https://www.linkedin.com/in/jmatty123/">
-        Matthew Young.
-    </a>
-    <br>This project is a learning experience and will be under constant development. Check back regularly!
+<p class="text-center font-mono text-[10px] px-20 mt-10">
+    Creation: 5/16/23 | Latest update: 5/24/23 "about accordion menu/dark mode toggle"
 </p>
 
-<p class="text-center font-mono text-xs text-white pt-10">
-    Creation: 5/16/23 | Latest update: 5/23/23 "cleanup/footer/changelog->about"
-</p>
+<LightSwitch class="mt-10" />
+
+
+

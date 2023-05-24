@@ -51,7 +51,7 @@
 				</button>
 				<!-- Navbar buttons -->
 				<div class="hidden lg:flex">
-					<a href="/about" class="btn font-semibold text-primary-500">About</a>
+					<a href="/about" class="btn font-semibold">About</a>
 					<!-- More buttons here -->
 				</div>
 			</svelte:fragment>
@@ -65,7 +65,7 @@
 		</Drawer>
 	</svelte:fragment>
 
-	<div class="border-t-2 border-b-2 border-white w-full h-full flex flex-col justify-center items-center">
+	<div class="w-full h-full flex flex-col justify-center items-center">
 		<slot />
 	</div>
 
