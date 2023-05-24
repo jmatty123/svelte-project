@@ -2,7 +2,7 @@
     import { Accordion, AccordionItem, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="w-5/6 lg:w-1/3">
+<div class="w-5/6 lg:w-1/3 variant-ringed-surface">
 <Accordion autocollapse>
 	<AccordionItem open>
 		<svelte:fragment slot="lead"></svelte:fragment>
@@ -24,7 +24,7 @@
 </div>
 
 <p class="text-center font-mono text-[10px] px-20 mt-10">
-    Creation: 5/16/23 | Latest update: 5/24/23 "theme/dark-mode-toggle/accordion-menu/cleanup-response"
+    Creation: 5/16/23 | Latest update: 5/24/23
 </p>
 
 

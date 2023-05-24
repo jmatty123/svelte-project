@@ -16,26 +16,23 @@
 		drawerStore.open({});
 	}
 
-	import { page } from '$app/stores';
-	$: classesSidebar = 'w-0';
-
 </script>
 
-<AppShell class="flex flex-col" slotSidebarRight="bg-surface-500/5 {classesSidebar}">
+<AppShell class="flex flex-col" slotSidebarRight="bg-surface-500/5 w-0">
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			
 			<svelte:fragment slot="lead">
 				<div class="flex justify-center items-center">
-					
 					<!-- Logo Home Button -->
 					<a href="/" class="flex btn text-xl pt-[5px] font-semibold">matthewyoung.
 						<div class="flex">
-							<span style="color: cyan;">x</span>
-							<span style="color: yellow;">y</span>
-							<span style="color: magenta;">z</span>
+							<span class="text-success-500">x</span>
+							<span class="text-warning-500">y</span>
+							<span class="text-error-500">z</span>
 						</div>
 					</a>
+
 				</div>
 			</svelte:fragment>
 
