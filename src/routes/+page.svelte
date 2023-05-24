@@ -2,6 +2,6 @@
 	import Map from './Map.svelte';
 </script>
 
-<div class="h-full w-full fixed z-[-1] flex justify-center items-center">
+<div class="border-2 border-red-500 h-full w-full flex justify-center items-center">
 	<Map />
 </div>
