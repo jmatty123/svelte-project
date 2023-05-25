@@ -20,7 +20,7 @@
     <svelte:fragment slot="trail">
 
         <div class="flex justify-center items-center">
-            <LightSwitch />
+            <LightSwitch class="hidden md:flex"/>
         </div>
 
     </svelte:fragment>

@@ -2,7 +2,7 @@
     import { Accordion, AccordionItem} from '@skeletonlabs/skeleton';
 </script>
 
-<div class="w-5/6 md:w-1/2 xl:w-1/3 bg-surface-100-800-token">
+<div class="w-[80%] md:w-[480px] bg-surface-100-800-token">
     <Accordion autocollapse>
         <AccordionItem open class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
