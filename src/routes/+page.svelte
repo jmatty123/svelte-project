@@ -1,5 +1,5 @@
 <script>
-	import Map from './Map.svelte';
+	import Map from '../components/Map.svelte';
 </script>
 
 <div class="h-full w-full flex justify-center items-center">
