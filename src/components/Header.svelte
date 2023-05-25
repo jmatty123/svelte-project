@@ -13,7 +13,7 @@
     <svelte:fragment slot="lead">
         <div class="flex justify-center items-center">
             <!-- Logo Home Button -->
-            <a href="/" class="flex btn text-xl pt-[5px] font-semibold">matthewyoung.
+            <a href="/" class="flex btn text-xl pt-[4px] font-semibold">matthewyoung.
                 <div class="flex">
                     <span class="text-success-500">x</span>
                     <span class="text-warning-500">y</span>
@@ -26,17 +26,14 @@
 
     <svelte:fragment slot="trail">
         <!-- Mobile Hamburger Button -->
-        <button class="lg:hidden btn btn-sm mr-4 pt-[8px]" on:click={drawerOpen}>
+        <button class="md:hidden btn btn-sm mr-4 pt-[7px]" on:click={drawerOpen}>
             <span>
-                <svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-                    <rect width="100" height="20" />
-                    <rect y="30" width="100" height="20" />
-                    <rect y="60" width="100" height="20" />
-                </svg>
+                <svg class='w-[18px] h-[18px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
             </span>
         </button>
         <!-- Navbar buttons -->
-        <div class="hidden lg:flex">
+        <div class="hidden md:flex">
+            <a href="/projects" class="btn font-semibold">Projects</a>
             <a href="/about" class="btn font-semibold">About</a>
             <!-- More buttons here -->
         </div>

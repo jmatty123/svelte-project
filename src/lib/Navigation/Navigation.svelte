@@ -16,8 +16,9 @@
 	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 
-	<ul class="">
-		<li ><a href="/" class={routeId === '/' ? "btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>Homepage</a></li>
+	<ul class="flex flex-col items-center">
+		<li ><a href="/" class={routeId === '/' ? "btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>Home</a></li>
+		<li ><a href="/projects" class={routeId === '/projects' ? "btn btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>Projects</a></li>
 		<li ><a href="/about" class={routeId === '/about' ? "btn btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>About</a></li>
 	</ul>
 </nav>

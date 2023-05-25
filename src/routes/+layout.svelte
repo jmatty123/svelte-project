@@ -26,10 +26,8 @@
 			<Navigation />
 		</Drawer>
 	</svelte:fragment>
-
-	<div class="w-full h-full flex flex-col justify-center items-center">
-		<slot />
-	</div>
+	
+	<slot />
 
 	<svelte:fragment slot="footer">	
 		<Footer />
