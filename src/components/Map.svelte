@@ -12,6 +12,7 @@
         style: 'mapbox://styles/jmatty123/clhy5k88401g701pf5oo518xx', // the style URL
         center: [-77.0369, 38.9072], // the starting longitude and latitude
         zoom: 11, // the starting zoom
+        trackResize: false
       });
     });
   </script>
