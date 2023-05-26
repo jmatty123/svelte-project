@@ -21,16 +21,16 @@
 		<li ><a href="/projects" class={routeId === '/projects' ? "btn font-semibold bg-surface-200-700-token " : "btn hover:bg-surface-200-700-token"} on:click={drawerClose}>Projects</a></li>
 		<li ><a href="/about" class={routeId === '/about' ? "btn font-semibold bg-surface-200-700-token" : "btn hover:bg-surface-200-700-token"} on:click={drawerClose}>About</a></li>
 	</ul>
-	<div class="w-full h-full justify-center items-end pb-2 hidden sm:flex md:hidden">
+	<div class="w-full h-full justify-center items-end pb-2 flex sm:hidden">
 		<div class="dark:hidden flex text-2xl">
 			🦢
 		</div>
-		<div class="dark:flex hidden text-2xl pr-1">
-			🦇
-		</div>
+		<!-- <div class="dark:flex hidden text-2xl pr-1"> -->
+			<!-- 🦇 -->
+		<!-- </div> -->
 	</div>
 	<div class='flex flex-col items-center pb-2'>
-	<LightSwitch class="md:hidden mb-2"/>
+	<LightSwitch class="sm:hidden mb-2"/>
 	<p class="text-center font-mono text-[10px] ">
 		Creation: 5/16/23 | Latest update: 5/26/23</p>
 	</div>
