@@ -17,9 +17,9 @@
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 
 	<ul class="flex flex-col items-center">
-		<li ><a href="/" class={routeId === '/' ? "btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>Home</a></li>
-		<li ><a href="/projects" class={routeId === '/projects' ? "btn btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>Projects</a></li>
-		<li ><a href="/about" class={routeId === '/about' ? "btn btn-sm bg-primary-700" : "btn btn-sm"} on:click={drawerClose}>About</a></li>
+		<li ><a href="/" class={routeId === '/' ? "btn btn-sm font-semibold text-base bg-surface-50-900-token" : "btn btn-sm text-base"} on:click={drawerClose}>Home</a></li>
+		<li ><a href="/projects" class={routeId === '/projects' ? "btn btn-sm font-semibold text-base bg-surface-50-900-token" : "btn btn-sm text-base"} on:click={drawerClose}>Projects</a></li>
+		<li ><a href="/about" class={routeId === '/about' ? "btn btn-sm font-semibold text-base bg-surface-50-900-token" : "btn btn-sm text-base"} on:click={drawerClose}>About</a></li>
 	</ul>
 	<LightSwitch class="mt-8 md:hidden"/>
 </nav>
