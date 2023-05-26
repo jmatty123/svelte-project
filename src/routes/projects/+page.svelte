@@ -6,19 +6,19 @@
     <a href="/" class="card project-card bg-surface-100-800-token">
         <div class="content">
             <p class="">Personal Website</p>
-            <p class="text-base">5/16/23</p>
+            <p class="font-normal">5/16/23</p>
         </div>
     </a>
     <a href="/" class="card project-card bg-surface-100-800-token">
         <div class="content">
             <p class="text-tertiary-50-900-token">2</p>
-            <p class="text-base text-tertiary-50-900-token">Coming soon!</p>
+            <p class="text-tertiary-50-900-token">Coming soon!</p>
         </div>
     </a>
     <a href="/" class="card project-card bg-surface-100-800-token">
         <div class="content">
             <p class="text-tertiary-50-900-token">3</p>
-            <p class="text-base text-tertiary-50-900-token">Coming soon!</p>
+            <p class="text-tertiary-50-900-token">Coming soon!</p>
         </div>
     </a>
 </div>

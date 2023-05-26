@@ -24,8 +24,8 @@
         </button>
         <!-- Navbar buttons -->
         <div class="hidden sm:flex">
-            <a href="/projects" class="btn font-semibold">Projects</a>
-            <a href="/about" class="btn font-semibold">About</a>
+            <a href="/projects" class="btn text-lg font-semibold">Projects</a>
+            <a href="/about" class="btn text-lg font-semibold">About</a>
             <!-- More buttons here -->
         </div>
     </svelte:fragment>

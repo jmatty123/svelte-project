@@ -17,9 +17,9 @@
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 
 	<ul class="flex flex-col items-center mt-8 space-y-2">
-		<li ><a href="/" class={routeId === '/' ? "btn font-semibold bg-surface-200-700-token" : "btn hover:bg-surface-200-700-token"} on:click={drawerClose}>Home</a></li>
-		<li ><a href="/projects" class={routeId === '/projects' ? "btn font-semibold bg-surface-200-700-token " : "btn hover:bg-surface-200-700-token"} on:click={drawerClose}>Projects</a></li>
-		<li ><a href="/about" class={routeId === '/about' ? "btn font-semibold bg-surface-200-700-token" : "btn hover:bg-surface-200-700-token"} on:click={drawerClose}>About</a></li>
+		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-semibold hover:bg-surface-200-700-token" : "btn text-lg text-surface-700-200-token hover:bg-surface-200-700-token"} on:click={drawerClose}>Home</a></li>
+		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-semibold hover:bg-surface-200-700-token" : "btn text-lg text-surface-700-200-token hover:bg-surface-200-700-token"} on:click={drawerClose}>Projects</a></li>
+		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-semibold hover:bg-surface-200-700-token" : "btn text-lg text-surface-700-200-token hover:bg-surface-200-700-token"} on:click={drawerClose}>About</a></li>
 	</ul>
 	<div class="w-full h-full justify-center items-end pb-2 flex sm:hidden">
 		<div class="dark:hidden flex text-2xl">

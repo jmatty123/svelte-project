@@ -2,7 +2,7 @@
 	import AboutMenu from '/src/components/AboutMenu.svelte';
 </script>
 
-<div class="w-full h-full flex flex-col justify-center items-center">
+<div class="box-border w-full h-full p-4 flex justify-center items-center">
 
 	<AboutMenu />
 
