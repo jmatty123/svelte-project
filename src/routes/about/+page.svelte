@@ -3,9 +3,10 @@
 	import AboutMenu from '/src/components/AboutMenu.svelte';
 </script>
 
-<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-<div tabindex="0" style="position: absolute; top: -9999px;"></div>
-<div class="box-border w-full h-full p-4 flex flex-col justify-center items-center space-y-8">
+
+<div class="box-border w-full h-full flex flex-col justify-center items-center px-4 space-y-4">
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 	<a href="https://www.linkedin.com/in/jmatty123/">
 		<Avatar cursor="cursor-pointer"
 		src="https://media.licdn.com/dms/image/D4E03AQF2w8D3R9HUfg/profile-displayphoto-shrink_800_800/0/1684272249639?e=1691020800&v=beta&t=JhaTiP6FfjBy3X3Tkar-q_acBEziyemUMEy1n5P69IQ"
