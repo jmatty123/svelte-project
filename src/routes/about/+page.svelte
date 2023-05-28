@@ -4,7 +4,7 @@
 </script>
 
 
-<div class="box-border w-full h-full flex flex-col justify-center items-center px-4 space-y-4">
+<div class="box-border w-full h-full flex flex-col justify-center items-center px-4 pb-4 space-y-4">
 	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 	<a href="https://www.linkedin.com/in/jmatty123/">
