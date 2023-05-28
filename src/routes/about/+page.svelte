@@ -3,6 +3,8 @@
 	import AboutMenu from '/src/components/AboutMenu.svelte';
 </script>
 
+<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 <div class="box-border w-full h-full p-4 flex flex-col justify-center items-center space-y-8">
 	<a href="https://www.linkedin.com/in/jmatty123/">
 		<Avatar cursor="cursor-pointer"
