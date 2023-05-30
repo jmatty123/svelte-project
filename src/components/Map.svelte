@@ -18,6 +18,6 @@
     });
   </script>
   
-  <div class="absolute h-screen w-full flex flex-col justify-center items-center text-center">
+  <div class="absolute h-full w-full flex flex-col justify-center items-center text-center">
   <div id="map" class="h-full w-full" bind:this={mapContainer}></div>
   </div>
