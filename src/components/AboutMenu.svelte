@@ -12,12 +12,12 @@
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
             <svelte:fragment slot="summary"><p class="font-semibold text-lg">What?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">I created this project to deepen my understanding of web development and design, learn new techniques, and showcase the skills I've picked up along the way! This project is a learning experience and will be under constant development. Check back often to see what I'm working on!</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="text-lg">This site is a personal portfolio to showcase work and projects I have been involved with.</p></svelte:fragment>
         </AccordionItem>
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
             <svelte:fragment slot="summary"><p class="font-semibold text-lg">Why?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">Why not? I can put whatever I want on the internet now.</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="text-lg">I created this website to learn new techniques and deepen my understanding of web design and development. This project is a learning experience and will be under constant development. Check back often to see what I'm working on!</p></svelte:fragment>
         </AccordionItem>
         <!-- ... -->
     </Accordion>
