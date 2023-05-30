@@ -4,10 +4,10 @@
 	import Map from '/src/components/Map.svelte';
 </script>
 
-<Map />
 
-<div class="flex flex-col justify-center items-center h-full w-full p-8 space-y-8 relative">
-	
+
+<div class="flex flex-col justify-center items-center h-full w-full p-8 space-y-8 relative box-border border-2 border-blue-500 overflow-hidden">
+	<Map />
 	<a href="https://www.linkedin.com/in/jmatty123/">
 		<Avatar cursor="cursor-pointer"
 		src="https://media.licdn.com/dms/image/D4E03AQF2w8D3R9HUfg/profile-displayphoto-shrink_800_800/0/1684272249639?e=1691020800&v=beta&t=JhaTiP6FfjBy3X3Tkar-q_acBEziyemUMEy1n5P69IQ"

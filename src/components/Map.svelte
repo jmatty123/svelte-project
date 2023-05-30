@@ -13,11 +13,12 @@
         center: [-77.0369, 38.8791], // the starting longitude and latitude
         zoom: 11, // the starting zoom
         trackResize: true,
+        interactive: false,
         
       });
     });
   </script>
   
-  <div class="absolute h-full w-full flex flex-col justify-center items-center text-center border-2 border-red-500">
+  <div class="absolute z-[-1] h-full w-full flex flex-col justify-center items-center text-center box-border border-2 border-red-500">
   <div id="map" class="h-full w-full" bind:this={mapContainer}></div>
   </div>
