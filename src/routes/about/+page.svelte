@@ -6,7 +6,7 @@
 
 <Map />
 
-<div class="flex flex-col justify-center items-center h-full w-full p-8 space-y-8 relative box-border border-2 border-blue-500 overflow-hidden">
+<div class="flex flex-col justify-center items-center h-full w-full p-8 space-y-8 relative box-border overflow-hidden">
 	
 	<a href="https://www.linkedin.com/in/jmatty123/">
 		<Avatar cursor="cursor-pointer"
