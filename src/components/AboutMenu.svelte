@@ -7,7 +7,7 @@
         <AccordionItem open class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
             <svelte:fragment slot="summary"><p class="font-semibold text-lg">Who?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">Thanks for visiting my website! My name is Matt. Im an aspiring developer and artist based in Washington D.C. My goal is to leverage technology to create powerful experiences that positively impact the world.</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="text-lg">Thanks for visiting my website! My name is Matt. Im an aspiring developer and artist based in the Washington D.C. area. My goal is to leverage technology to create powerful experiences that positively impact the world.</p></svelte:fragment>
         </AccordionItem>
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>

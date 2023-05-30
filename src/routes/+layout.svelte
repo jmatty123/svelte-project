@@ -16,7 +16,7 @@
 
 </script>
 
-<AppShell class="flex flex-col" slotSidebarRight="w-0">
+<AppShell class="flex flex-col" slotFooter='z-10' slotSidebarRight="w-0">
 	<svelte:fragment slot="header">
 		<Header />
 	</svelte:fragment>
@@ -27,7 +27,7 @@
 		</Drawer>
 	</svelte:fragment>
 	
-	<slot />
+		<slot />
 
 	<svelte:fragment slot="footer">	
 		<Footer />

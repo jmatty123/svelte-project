@@ -17,9 +17,9 @@
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 
 	<ul class="flex flex-col items-center mt-8 space-y-2">
-		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-semibold hover:scale-110 hover:animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Home</a></li>
-		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-semibold hover:scale-110 hover:animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Projects</a></li>
-		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-semibold hover:scale-110 hover:animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>About</a></li>
+		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Home</a></li>
+		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Projects</a></li>
+		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>About</a></li>
 	</ul>
 	<div class="w-full h-full justify-center items-end pb-2 flex sm:hidden">
 		<div class="dark:hidden flex text-2xl hover:animate-spin">

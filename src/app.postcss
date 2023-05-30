@@ -1,5 +1,5 @@
 /*place global styles here */
-html, body { @apply h-full; }
+html, body { @apply h-full overflow-hidden; }
 
 .footer-icons {
     width: 25px;
@@ -27,4 +27,13 @@ html, body { @apply h-full; }
     font-size: 1.125rem;
     line-height: 1.5;
     text-align: center;
+}
+
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
+.animate-pulse-slow {
+    animation: pulse 7s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
