@@ -16,7 +16,7 @@
 
 </script>
 
-<AppShell class="flex flex-col" slotFooter='z-10' slotSidebarRight="w-0">
+<AppShell class="flex flex-col overflow-clip" slotFooter='z-10' slotSidebarRight="w-0">
 	<svelte:fragment slot="header">
 		<Header />
 	</svelte:fragment>
