@@ -4,7 +4,7 @@
     import { spring } from 'svelte/motion'
 
     interactivity()
-    const scale = spring(.15)
+    const scale = spring(.2)
 
     let rotation = 0
     useFrame((state, delta) => {
@@ -23,13 +23,13 @@
 <T.DirectionalLight position={[3, 10, 7]} />
 
 <T.Mesh
-    rotation.y={rotation/2}
+    rotation.y={rotation/3}
     rotation.x={rotation/10}
     position.y={1}
     scale={$scale}
-    on:pointerenter={() => scale.set(.15)}
-    on:pointerleave={() => scale.set(.15)}    
+    on:pointerenter={() => scale.set(.2)}
+    on:pointerleave={() => scale.set(.2)}    
 >
-  <T.TorusKnotGeometry args={[10, 3, 1000, 100, 1, 3]} />
-  <T.MeshStandardMaterial color="white" />
+  <T.TorusKnotGeometry args={[7, .3, 1000, 100, 5, 3]} />
+  <T.MeshStandardMaterial color="gold" />
 </T.Mesh>
