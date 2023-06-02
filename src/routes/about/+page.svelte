@@ -16,4 +16,6 @@
 
 	<AboutMenu />
 
+	<button class="btn variant-filled-surface bg-surface-100-800-token text-black"> Show Map </button>
+
 </div>
