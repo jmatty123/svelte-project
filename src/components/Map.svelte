@@ -1,6 +1,8 @@
 <script lang="ts">
+
     import { onMount } from 'svelte';
     import mapboxgl from 'mapbox-gl';
+    import { fade } from 'svelte/transition';
   
     let mapContainer: HTMLElement;
   
@@ -13,12 +15,12 @@
         center: [-77.0369, 38.8951], // the starting longitude and latitude
         zoom: 11, // the starting zoom
         trackResize: true,
-        interactive: false,
         
       });
     });
+
   </script>
   
-  <div class="absolute h-full w-full flex flex-col justify-center items-center text-center box-border">
+  <div class="absolute h-full w-full flex flex-col justify-center items-center text-center box-border" transition:fade>
   <div id="map" class="relative h-full w-full" bind:this={mapContainer}></div>
   </div>

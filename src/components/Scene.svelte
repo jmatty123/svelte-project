@@ -8,7 +8,7 @@
 
     let rotation = 0
     useFrame((state, delta) => {
-        rotation -= delta
+        rotation -= delta/5
     })
 </script>
 
@@ -23,8 +23,8 @@
 <T.DirectionalLight position={[3, 10, 7]} />
 
 <T.Mesh
-    rotation.z={rotation/5}
-    rotation.x={.0}
+    rotation.z={rotation}
+    rotation.x={0}
     rotation.y={0}
     position.y={1}
     scale={$scale}

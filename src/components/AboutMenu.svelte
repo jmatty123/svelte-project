@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Accordion, AccordionItem} from '@skeletonlabs/skeleton';
+    import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
 <div class="w-full sm:w-[610px] bg-surface-100-800-token shadow-md">
