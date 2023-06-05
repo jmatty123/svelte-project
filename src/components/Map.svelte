@@ -2,7 +2,6 @@
 
     import { onMount } from 'svelte';
     import mapboxgl from 'mapbox-gl';
-    import { fade } from 'svelte/transition';
   
     let mapContainer: HTMLElement;
   
@@ -21,6 +20,6 @@
 
   </script>
   
-  <div class="absolute h-full w-full flex flex-col justify-center items-center text-center box-border" transition:fade>
-  <div id="map" class="relative h-full w-full" bind:this={mapContainer}></div>
-  </div>
+  <!-- <div class="h-full w-full flex flex-col justify-center items-center text-center box-border" transition:fade> -->
+  <div id="map" class="h-full w-full text-center" bind:this={mapContainer}></div>
+  <!-- </div> -->

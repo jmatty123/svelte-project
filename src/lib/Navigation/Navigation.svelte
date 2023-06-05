@@ -17,9 +17,9 @@
 	<div tabindex="0" style="position: absolute; top: -9999px;"></div>
 
 	<ul class="flex flex-col items-center mt-8 space-y-2">
-		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Home</a></li>
-		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>Projects</a></li>
-		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 hover:animate-pulse duration-100"} on:click={drawerClose}>About</a></li>
+		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 duration-100"} on:click={drawerClose}>Home</a></li>
+		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 duration-100"} on:click={drawerClose}>Projects</a></li>
+		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-semibold hover:scale-110 animate-pulse duration-100" : "btn text-lg hover:scale-110 duration-100"} on:click={drawerClose}>About</a></li>
 	</ul>
 	<div class="w-full h-full justify-center items-end pb-2 flex sm:hidden">
 		<div class="dark:hidden flex text-2xl hover:animate-spin">
@@ -29,9 +29,7 @@
 			<!-- 🦇 -->
 		<!-- </div> -->
 	</div>
-	<div class='flex flex-col items-center pb-2'>
+	<div class='flex flex-col items-center pb-8'>
 	<LightSwitch class="sm:hidden mb-2"/>
-	<p class="text-center font-mono text-[10px] ">
-		Creation: 5/16/23 | Latest update: 5/28/23</p>
 	</div>
 </nav>

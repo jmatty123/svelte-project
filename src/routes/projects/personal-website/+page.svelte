@@ -1,4 +1,6 @@
+<script lang='ts'>
+    import PWP from '/src/components/PWProject.svelte';
+</script>
 
+<PWP />
 
-<h1 class='text-center'>Personal Website</h1>
-<p>That’s a crooked tree, we’ll send him to Washington. This is happy place; little squirrels live here and play. I think each of us, sometime in our life, has wanted to paint a picture. All you need to paint is a few tools, a little instruction, and a vision in your mind. Maybe in our world there lives a happy little tree over there. Don’t forget to tell these special people in your life just how special they are to you. I think each of us, sometime in our life, has wanted to paint a picture. We don’t need to set the sky on fire, a little glow will do just fine. There's nothing wrong with having a tree as a friend. Lets build some happy little trees.</p>

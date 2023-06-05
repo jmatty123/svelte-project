@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import { T, useFrame } from '@threlte/core'
     import { interactivity } from '@threlte/extras'
     import { spring } from 'svelte/motion'
@@ -10,7 +10,14 @@
     useFrame((state, delta) => {
         rotation -= delta/5
     })
+
+    let morph = 0
+    useFrame((state, delta) => {
+        morph += delta
+    })
+
 </script>
+
 
 <T.PerspectiveCamera
   makeDefault
@@ -32,5 +39,5 @@
     on:pointerleave={() => scale.set(.5)}    
 >
   <T.TorusKnotGeometry args={[5, .1, 1000, 100, 5, 3]} />
-  <T.MeshStandardMaterial color="white" />
+  <T.MeshStandardMaterial color="darkgray" />
 </T.Mesh>

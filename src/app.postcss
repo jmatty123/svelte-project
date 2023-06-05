@@ -1,5 +1,5 @@
 /*place global styles here */
-html, body { @apply h-full overflow-hidden; }
+html, body { @apply h-full overflow-hidden select-none; }
 
 .footer-icons {
     width: 25px;
@@ -10,7 +10,7 @@ html, body { @apply h-full overflow-hidden; }
     border-radius: 0px;
     position: relative;
     overflow: hidden;
-    padding-top: 100%;
+    padding-top: 120%;
 }
 
 .content {
@@ -20,12 +20,25 @@ html, body { @apply h-full overflow-hidden; }
     bottom: 0;
     right: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-end;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.5;
+    border-width: 0px;
+    border-color: rgb(59 130 246);
+}
+
+.description {
+    width: 100%;
+    margin: 0rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 @keyframes pulse {
