@@ -39,5 +39,5 @@
     on:pointerleave={() => scale.set(.5)}    
 >
   <T.TorusKnotGeometry args={[5, .1, 1000, 100, 5, 3]} />
-  <T.MeshStandardMaterial color="darkgray" />
+  <T.MeshStandardMaterial color="white" />
 </T.Mesh>
