@@ -3,7 +3,7 @@
     import Scene from "./TorusKnot.svelte"
 </script>
 
-<div class='w-full aspect-square max-w-[1200px] mx-4'>
+<div class=' w-full aspect-[10/9] max-w-[1300px] absolute'>
 <Canvas>
     <Scene />
 </Canvas>
