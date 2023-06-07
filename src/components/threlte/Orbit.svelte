@@ -10,7 +10,7 @@
     let globalspeed = 5
     let orbitsize = 2.25
     let orbitspeed = 1
-    let bobspeed = 1
+    let bobspeed = 2
     let bobdepth = .5
     let revolvespeed = 5
     
