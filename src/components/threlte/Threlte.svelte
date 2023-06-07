@@ -5,7 +5,7 @@
     import Orbit from "/src/components/threlte/Orbit.svelte"
 </script>
 
-<div class='w-full aspect-[10/9] max-w-[1300px] absolute'>
+<div class='border-0 bg-surface-100-800-token w-full aspect-[10/9] max-w-[1300px] absolute'>
 <Canvas>
     <!-- <TorusKnot /> -->
     <!-- <Rain /> -->
