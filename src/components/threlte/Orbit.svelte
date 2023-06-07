@@ -64,7 +64,7 @@
     rotation.y={rotation*revolvespeed}
     rotation.z={0}  
 >
-  <T.IcosahedronBufferGeometry args={[.6, 0]} />
+  <T.IcosahedronGeometry args={[.6, 0]} />
   <T.MeshStandardMaterial color="cyan" />
 </T.Mesh>
 
@@ -86,6 +86,6 @@
     rotation.y={rotation*revolvespeed}
     rotation.z={rotation*revolvespeed}  
 >
-  <T.IcosahedronBufferGeometry args={[.6, 0]} />
+  <T.IcosahedronGeometry args={[.6, 0]} />
   <T.MeshStandardMaterial color="magenta" />
 </T.Mesh>
