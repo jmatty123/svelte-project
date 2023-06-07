@@ -1,5 +1,5 @@
 <script>
-	import Threlte from '../components/Threlte.svelte';
+	import Threlte from '../components/threlte/Threlte.svelte';
 	import Map from '../components/Map.svelte';
 </script>
 
