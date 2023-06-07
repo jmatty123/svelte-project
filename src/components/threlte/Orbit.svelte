@@ -54,7 +54,7 @@
     rotation.z={rotation*2}  
 >
   <T.IcosahedronGeometry args={[.7, 0]} />
-  <T.MeshStandardMaterial color="white" />
+  <T.MeshStandardMaterial color="red" />
 </T.Mesh>
 
 <T.Mesh
