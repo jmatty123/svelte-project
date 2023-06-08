@@ -10,9 +10,9 @@
 
 	import Navigation from '/src/lib/Navigation/Navigation.svelte';
 	
-	import Header from '/src/components/Header.svelte';
+	import Header from '/src/lib/Navigation/Header.svelte';
 
-	import Footer from '/src/components/Footer.svelte';
+	import Footer from '/src/lib/Navigation/Footer.svelte';
 
 </script>
 

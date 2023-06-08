@@ -14,13 +14,13 @@
             </div>
         </div>
     </a>
-    <a href="/" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">
+    <a href="/projects/threlte-projects" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">
         <div class="content">
             <div class="m-auto h-full w-full overflow-hidden">
             </div>
             <div class='description bg-surface-200-700-token'>
-                <p class="text-lg">2</p>
-                <p class="font-normal ">Coming soon!</p>
+                <p class="text-lg">Threlte Projects</p>
+                <p class="font-normal ">6/8/23</p>
             </div>
         </div>
     </a>

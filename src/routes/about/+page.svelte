@@ -2,7 +2,7 @@
 
 	import { writable } from 'svelte/store';
 	import { Avatar } from '@skeletonlabs/skeleton';
-	import AboutMenu from '/src/components/AboutMenu.svelte';
+	import AboutMenu from '/src/routes/about/AboutMenu.svelte';
 	import Map from '/src/components/Map.svelte';
 
 	let visibility = writable(true);
@@ -16,7 +16,6 @@
 <div class="flex flex-col justify-center items-center h-full w-full relative">
 
 {#if $visibility}
-
 	
 <div class="flex flex-col justify-center items-center h-full w-full p-8 space-y-8 relative box-border overflow-hidden">
 
@@ -35,12 +34,12 @@
 	
 </div>
 
-
 {:else}
 
 	<Map class="absolute"/>
 
 {/if}
+
 	<button on:click={toggleVisibility} class="fixed bottom-[106px] hidden sm:flex btn variant-filled-surface bg-surface-100-800-token text-black font-semibold hover:scale-105 duration-100">
 		{$visibility ? 'Show Map' : '	Hide Map'}
 	</button>
