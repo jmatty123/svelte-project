@@ -9,8 +9,8 @@
     let rotation = 0
     let globalspeed = 5
     let orbitsize = 2.25
-    let orbitspeed = 1
-    let bobspeed = 1
+    let orbitspeed = 2
+    let bobspeed = 4
     let bobdepth = .5
     let revolvespeed = 5
     
@@ -23,15 +23,15 @@
         
         spherePos1.x = orbitsize * Math.cos(rotation*orbitspeed);
         spherePos1.y = orbitsize * Math.sin(rotation*orbitspeed);
-        spherePos1.z = bobdepth*Math.tan(rotation*bobspeed);
+        spherePos1.z = bobdepth*Math.sin(rotation*bobspeed);
 
         spherePos2.x = orbitsize * Math.cos(rotation*orbitspeed + 4*Math.PI/3);
         spherePos2.y = orbitsize * Math.sin(rotation*orbitspeed + 4*Math.PI/3);
-        spherePos2.z = bobdepth*Math.tan(rotation*bobspeed + 4*Math.PI/3);
+        spherePos2.z = bobdepth*Math.sin(rotation*bobspeed + 4*Math.PI/3);
 
         spherePos3.x = orbitsize * Math.cos(rotation*orbitspeed + 2*Math.PI/3);
         spherePos3.y = orbitsize * Math.sin(rotation*orbitspeed + 2*Math.PI/3);
-        spherePos3.z = bobdepth*(Math.tan(rotation*bobspeed + 2*Math.PI/3));
+        spherePos3.z = bobdepth*(Math.sin(rotation*bobspeed + 2*Math.PI/3));
     })
 
 </script>
@@ -50,7 +50,7 @@
 <T.Mesh
     rotation.x={0}
     rotation.y={0}
-    rotation.z={rotation}
+    rotation.z={-rotation}
     scale={$scale} 
 >
   <T.TorusKnotGeometry args={[5, .1, 1000, 100, 5, 3]} />
