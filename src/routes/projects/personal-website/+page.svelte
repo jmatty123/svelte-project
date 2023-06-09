@@ -10,7 +10,7 @@
     I think each of us, sometime in our life, has wanted to paint a picture. We don’t need to set the sky on fire, a little glow will do just fine.
     There's nothing wrong with having a tree as a friend. Lets build some happy little trees.</h2>
 
-<div class="box-border h-1/2 sm:w-[600px] my-4 sm:my-8 mx-2 sm:mx-auto grid grid-cols-2 gap-4 sm:gap-8">
+<div class="box-border h-1/2 sm:w-[600px] my-4 sm:my-8 mx-2 sm:mx-auto grid grid-cols-2 gap-4 sm:gap-10">
     <div class="card pt-[86%] text-center pb-[4%]">Svelte</div>
     <div class="card pt-[86%] text-center pb-[4%]">Threlte</div>
     <div class="card pt-[86%] text-center pb-[4%]">Vite</div>

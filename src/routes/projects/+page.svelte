@@ -2,7 +2,8 @@
     import Map from '/src/components/Map.svelte';
 </script>
 
-<div class='box-border m-10 2xl:mx-auto w-auto h-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 max-w-screen-2xl'>
+
+<div class='box-border h-auto m-10 sm:m-16 xl:m-24 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10'>
     <a href="/projects/personal-website" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">  
         <div class="content">
             <div class="m-auto h-full w-full overflow-hidden pointer-events-none">
@@ -19,7 +20,7 @@
             <div class="m-auto h-full w-full overflow-hidden">
             </div>
             <div class='description bg-surface-200-700-token'>
-                <p class="text-lg">Threlte Projects</p>
+                <p class="text-lg">Threlte Experiments</p>
                 <p class="font-normal ">6/8/23</p>
             </div>
         </div>
