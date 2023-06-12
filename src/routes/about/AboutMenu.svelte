@@ -6,18 +6,18 @@
     <Accordion autocollapse>
         <AccordionItem open class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
-            <svelte:fragment slot="summary"><p class="font-semibold text-lg">Who?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">Thanks for visiting my website! My name is Matt. Im an aspiring developer and artist based in the Washington D.C. area. My goal is to leverage technology to create powerful experiences that positively impact the world.</p></svelte:fragment>
+            <svelte:fragment slot="summary"><p class="font-thin text-xl">Who?</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="font-thin text-lg">Thanks for visiting my website! My name is Matt. Im an aspiring developer and artist based in the Washington D.C. area. My goal is to leverage technology to create powerful experiences that positively impact the world.</p></svelte:fragment>
         </AccordionItem>
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
-            <svelte:fragment slot="summary"><p class="font-semibold text-lg">What?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">This site is a personal portfolio to showcase work and projects I have been involved with.</p></svelte:fragment>
+            <svelte:fragment slot="summary"><p class="font-thin text-xl">What?</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="font-thin text-lg">This site is a personal portfolio to showcase work and projects I have been involved with.</p></svelte:fragment>
         </AccordionItem>
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
-            <svelte:fragment slot="summary"><p class="font-semibold text-lg">Why?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="text-lg">I created this website to learn new techniques and deepen my understanding of web design and development. This project is a learning experience and will be under constant development. Check back often to see what I'm working on!</p></svelte:fragment>
+            <svelte:fragment slot="summary"><p class="font-thin text-xl">Why?</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="font-thin text-lg pb-2">I created this website to learn new techniques and deepen my understanding of web design and development. This project is a learning experience and will be under constant development. Check back often to see what I'm working on!</p></svelte:fragment>
         </AccordionItem>
         <!-- ... -->
     </Accordion>

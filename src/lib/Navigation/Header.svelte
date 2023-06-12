@@ -8,11 +8,11 @@
 
 </script>
 
-<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+<AppBar padding='p-0' gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 			
     <svelte:fragment slot="lead">
             <!-- Logo Home Button -->
-            <a href="/" class="btn text-xl font-semibold pb-3 hover:scale-110">Matthew Young</a>
+            <a href="/" class="btn text-xl font-extralight pb-3 hover:scale-105">Matthew Young</a>
     </svelte:fragment>
 
     <svelte:fragment slot="trail">
@@ -24,8 +24,8 @@
         </div>
         <!-- Navbar buttons -->
         <div class="hidden sm:flex">
-            <a href="/projects" class="btn text-lg font-semibold hover:scale-110 duration-100">Projects</a>
-            <a href="/about" class="btn text-lg font-semibold hover:scale-110 duration-100">About</a>
+            <a href="/projects" class="btn text-xl font-extralight pb-3 hover:scale-105 duration-100">Projects</a>
+            <a href="/about" class="btn text-xl font-extralight pb-3 hover:scale-105 duration-100">About</a>
             <!-- More buttons here -->
         </div>
     </svelte:fragment>
