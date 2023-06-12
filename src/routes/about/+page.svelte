@@ -17,7 +17,7 @@
 
 {#if $visibility}
 	
-<div class="flex flex-col justify-center items-center h-full w-full p-8 sm:pb-52 space-y-8 relative box-border overflow-hidden">
+<div class="flex flex-col justify-center items-center h-full w-full p-8 md:pb-52 space-y-8 relative box-border overflow-hidden">
 
 	<a href="https://www.linkedin.com/in/jmatty123/" >
 		<Avatar
@@ -40,7 +40,7 @@
 
 {/if}
 
-	<button on:click={toggleVisibility} class="fixed bottom-[86px] hidden sm:flex btn variant-filled-surface bg-surface-100-800-token text-black font-thin hover:scale-105 duration-100 shadow-md">
+	<button on:click={toggleVisibility} class="fixed bottom-[86px] hidden md:flex btn variant-filled-surface bg-surface-100-800-token text-black font-thin hover:scale-105 duration-100 shadow-md">
 		{$visibility ? 'Show Map' : 'Hide Map'}
 	</button>
 
