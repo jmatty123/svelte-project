@@ -1,20 +1,19 @@
-<script lang='ts'>
+<script>
 	import { fade } from 'svelte/transition';
-	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-	import OrbitSc from '/src/components/threlte/OrbitSc.svelte'
-	
-	let show = writable(true);
-	onMount(() => {
-		setTimeout(() => {
-			show.update(() => false);
-		}, 10000);  // Set your delay time here
-	});
+	let isInitialLoad = !sessionStorage.getItem('isNotFirstLoad');
+	if (isInitialLoad) {
+		sessionStorage.setItem('isNotFirstLoad', 'true');
+	}
 </script>
 
-{#if $show}
-<div class='border-0 h-full w-full flex flex-col justify-center items-center text-center'out:fade={{duration:500}}>
-	<span class='text-5xl font-thin m-4' in:fade={{duration: 2000, delay:1000}}>Hi</span>
-	<span class='text-5xl font-thin m-4' in:fade={{duration: 2000, delay: 3000}}>Welcome to my website</span>
+{#if isInitialLoad}
+<div class='border-0 h-full w-full flex flex-col justify-center items-center text-center'>
+	<span class='text-5xl font-thin m-4' in:fade={{duration: 5000}}>Hi</span>
+	<span class='text-5xl font-thin m-4' in:fade={{duration: 5000}}>Welcome to my website</span>
+</div>
+{:else}
+<div class='border-0 h-full w-full flex flex-col justify-center items-center text-center'>
+	<span class='text-5xl font-thin m-4'>Hi</span>
+	<span class='text-5xl font-thin m-4'>Welcome to my website</span>
 </div>
 {/if}

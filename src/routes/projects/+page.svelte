@@ -18,7 +18,7 @@
     </a>
     <a href="/projects/threlte-projects" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">
         <div class="content">
-            <div class="m-auto h-full w-full flex items-center justify-center overflow-hidden">
+            <div class="m-auto h-full w-full flex items-center justify-center overflow-hidden scale-95">
                 <Orbit />
             </div>
             <div class='description bg-surface-200-700-token'>
