@@ -6,7 +6,7 @@ Command: npx @threlte/gltf@1.0.0-next.12 plaincoin.glb
 <script lang='ts'>
   import animation from './coin-animation.json'
   import { Group } from 'three'
-  import { T, forwardEventHandlers, useFrame } from '@threlte/core'
+  import { T, forwardEventHandlers } from '@threlte/core'
   import { useGltf } from '@threlte/extras'
   import { Theatre, Editable, Sheet } from '@threlte/theatre'
 
@@ -18,7 +18,7 @@ Command: npx @threlte/gltf@1.0.0-next.12 plaincoin.glb
 
 </script>
 
-<Theatre config={{ state: animation }}>
+<Theatre config={{ state: animation }} studio={false}>
   <Sheet autoPlay>
   <Editable name="Coin" props={{ scale: 0, opacity: 0, rotation: 0 }} let:values>
   <T is={ref} dispose={false} {...$$restProps} scale={values.scale} rotation.y={values.rotation} bind:this={$component}>
