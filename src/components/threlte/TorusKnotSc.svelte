@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import { Canvas } from '@threlte/core'
     import TorusKnot from "/src/components/threlte/TorusKnot.svelte"
 </script>

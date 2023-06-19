@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import { Canvas } from '@threlte/core'
     import Orbit from "/src/components/threlte/Orbit.svelte"
 </script>

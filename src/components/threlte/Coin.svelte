@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import { Canvas } from '@threlte/core';
     import CoinSc from '/src/components/threlte/CoinSc.svelte';
 </script>
