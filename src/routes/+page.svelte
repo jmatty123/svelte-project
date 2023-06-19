@@ -1,5 +1,5 @@
 <script lang='ts'>
-    import Badge from '/src/components/threlte/Badge.svelte'
+    import Coin from '/src/components/threlte/Coin.svelte'
 </script>
 
-<Badge />
+<Coin />

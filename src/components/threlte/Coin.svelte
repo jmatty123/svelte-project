@@ -1,9 +1,9 @@
 <script>
     import { Canvas } from '@threlte/core';
-    import BadgeSc from '/src/components/threlte/BadgeSc.svelte';
+    import CoinSc from '/src/components/threlte/CoinSc.svelte';
 </script>
 <div class="grid place-content-center h-full">
     <Canvas>
-        <BadgeSc />
+        <CoinSc />
     </Canvas>
 </div>

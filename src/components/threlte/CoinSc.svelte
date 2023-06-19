@@ -2,7 +2,7 @@
     import { spring } from 'svelte/motion'
     import { T } from '@threlte/core'
     import { Environment, interactivity, useInteractivity } from '@threlte/extras';
-	import Coin from './Plaincoin.svelte';
+	import PlainCoin from './Plaincoin.svelte';
 
     interactivity();
     const { pointer } = useInteractivity();
@@ -10,12 +10,6 @@
     const scale = spring(.5);
     const rotation = spring(0);
 
-    function onEnter() {
-        $scale = .55;
-    }
-    function onLeave() {
-        $scale = .5;
-    }
 </script>
 
 <T.PerspectiveCamera position={[0, 0, 3]} makeDefault />
@@ -23,6 +17,6 @@
 <Environment files='/light.hdr' />
 <T.Group scale={$scale} rotation.y={$rotation}>
     <T.Group rotation.y={$pointer.x} rotation.x={-$pointer.y}>
-        <Coin on:pointerenter={onEnter} on:pointerleave={onLeave}/>
+        <PlainCoin />
     </T.Group>
 </T.Group>
