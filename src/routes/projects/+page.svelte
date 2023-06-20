@@ -4,7 +4,7 @@
 </script>
 
 
-<div class='box-border h-auto m-10 xl:mx-auto xl:w-[80%] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10'>
+<div class='box-border h-auto m-10 xl:mt-20 xl:mx-auto xl:w-[80%] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10'>
     <a href="/projects/personal-website" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">  
         <div class="content">
             <div class="m-auto h-full w-full overflow-hidden pointer-events-none">

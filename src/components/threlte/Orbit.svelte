@@ -4,11 +4,11 @@
     import { spring } from 'svelte/motion'
 
     interactivity()
-    const scale = spring(.5)
+    const scale = spring(.65)
     
     let rotation = 0
     let globalspeed = 5
-    let orbitsize = 3
+    let orbitsize = 3.5
     let orbitspeed = 2
     let bobspeed = 4
     let bobdepth = 1
@@ -53,7 +53,7 @@
     rotation.z={-rotation}
     scale={$scale} 
 >
-  <T.IcosahedronGeometry args={[3, 0]} />
+  <T.IcosahedronGeometry args={[2.75, 0]} />
   <T.MeshStandardMaterial color="white" />
 </T.Mesh>
 

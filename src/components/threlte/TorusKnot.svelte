@@ -4,7 +4,7 @@
     import { spring } from 'svelte/motion'
 
     interactivity()
-    const scale = spring(.5)
+    const scale = spring(.575)
 
     let rotation = 0
     useFrame((state, delta) => {
