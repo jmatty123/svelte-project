@@ -7,7 +7,7 @@
     interactivity();
     const { pointer } = useInteractivity();
 
-    const scale = spring(.5);
+    const scale = spring(.75);
     const rotation = spring(0);
 
 </script>

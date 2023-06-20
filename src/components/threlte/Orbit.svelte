@@ -8,10 +8,10 @@
     
     let rotation = 0
     let globalspeed = 5
-    let orbitsize = 2.25
+    let orbitsize = 3
     let orbitspeed = 2
     let bobspeed = 4
-    let bobdepth = .5
+    let bobdepth = 1
     let revolvespeed = 5
     
     let spherePos1 = { x: orbitsize, y: orbitsize, z: 0 }
@@ -53,7 +53,7 @@
     rotation.z={-rotation}
     scale={$scale} 
 >
-  <T.TorusKnotGeometry args={[5, .1, 1000, 100, 5, 3]} />
+  <T.IcosahedronGeometry args={[3, 0]} />
   <T.MeshStandardMaterial color="white" />
 </T.Mesh>
 
@@ -64,7 +64,7 @@
     rotation.y={rotation*revolvespeed}
     rotation.z={0}  
 >
-  <T.IcosahedronGeometry args={[.6, 0]} />
+  <T.IcosahedronGeometry args={[1, 0]} />
   <T.MeshStandardMaterial color="cyan" />
 </T.Mesh>
 
@@ -75,7 +75,7 @@
     rotation.y={0}
     rotation.z={rotation*revolvespeed} 
 >
-  <T.IcosahedronGeometry args={[.6, 0]} />
+  <T.IcosahedronGeometry args={[1, 0]} />
   <T.MeshStandardMaterial color="yellow" />
 </T.Mesh>
 
@@ -86,6 +86,6 @@
     rotation.y={rotation*revolvespeed}
     rotation.z={rotation*revolvespeed}  
 >
-  <T.IcosahedronGeometry args={[.6, 0]} />
+  <T.IcosahedronGeometry args={[1, 0]} />
   <T.MeshStandardMaterial color="magenta" />
 </T.Mesh>

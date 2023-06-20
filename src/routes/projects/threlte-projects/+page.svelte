@@ -1,6 +1,7 @@
 <script lang="ts">
     import OrbitSc from '/src/components/threlte/OrbitSc.svelte'
     import TorusKnotSc from '/src/components/threlte/TorusKnotSc.svelte'
+    import Coin from '/src/components/threlte/Coin.svelte'
 </script>
 
 <div class='flex flex-col justify-center sm:justify-start items-center sm:items-start max-w-screen-lg lg:mx-auto'>
@@ -9,13 +10,18 @@
 </div>
 
 <div class="box-border h-auto m-10 xl:mx-auto xl:w-[80%] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">
+    <div class="card rounded-none pt-[90%] text-center relative flex justify-center items-center">
+        <div class="absolute inset-0">
+            <Coin />
+        </div>
+    </div>
     <div class="card rounded-none pt-[90%] text-center overflow-clip relative flex justify-center items-center">
         <div class="flex items-center justify-center absolute inset-0 mx-2">
             <OrbitSc />
         </div>
     </div>
     <div class="card rounded-none pt-[90%] text-center overflow-clip relative flex justify-center items-center">
-        <div class="flex items-center justify-center absolute h-full w-full top-0">
+        <div class="flex items-center justify-center absolute inset-0 mx-2">
             <TorusKnotSc />
         </div>
     </div>
