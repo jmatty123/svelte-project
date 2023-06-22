@@ -12,7 +12,7 @@
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>
             <svelte:fragment slot="summary"><p class="font-thin text-xl">What?</p></svelte:fragment>
-            <svelte:fragment slot="content"><p class="font-thin text-lg">This site is a personal portfolio to showcase work and projects I have been involved with.</p></svelte:fragment>
+            <svelte:fragment slot="content"><p class="font-thin text-lg">This is a personal portfolio to showcase work and projects I have been involved with. This site is a project itself, and you may experience bugs or other issues while under development!</p></svelte:fragment>
         </AccordionItem>
         <AccordionItem class="text-center">
             <svelte:fragment slot="lead"></svelte:fragment>

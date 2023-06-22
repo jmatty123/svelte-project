@@ -8,7 +8,7 @@
 
     let rotation = 0
     useFrame((state, delta) => {
-        rotation -= delta/5
+        rotation -= delta/3
     })
 
 </script>

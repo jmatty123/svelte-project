@@ -12,7 +12,7 @@
 			
     <svelte:fragment slot="lead">
             <!-- Logo Home Button -->
-            <a href="/" class="btn border-0 border-red-500 text-xl font-extralight pb-3 hover:scale-105">Matthew Young</a>
+            <a href="/" class="btn text-xl font-extralight pb-3 hover:scale-105">Matthew Young</a>
     </svelte:fragment>
 
     <svelte:fragment slot="trail">
@@ -25,8 +25,9 @@
         </div>
         <!-- Navbar buttons -->
         <div class="hidden sm:flex">
-            <a href="/projects" class="btn text-xl font-extralight pb-3 hover:scale-105 duration-100">Projects</a>
-            <a href="/about" class="btn text-xl font-extralight pb-3 hover:scale-105 duration-100">About</a>
+            <a href="/projects" class="btn text-xl font-extralight pb-3 pr-3 hover:scale-105 duration-100">Projects</a>
+            <a href="/about" class="btn text-xl font-extralight pb-3 px-3 hover:scale-105 duration-100">About</a>
+            <a href="/contact" class="btn text-xl font-extralight pb-3 pl-3 hover:scale-105 duration-100">Contact</a>
             <!-- More buttons here -->
         </div>
     </svelte:fragment>

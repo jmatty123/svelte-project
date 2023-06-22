@@ -20,6 +20,7 @@
 		<li ><a href="/" class={routeId === '/' ? "btn text-lg font-medium hover:scale-110 duration-100" : "btn text-lg font-thin hover:scale-110 duration-100"} on:click={drawerClose}>Home</a></li>
 		<li ><a href="/projects" class={routeId === '/projects' ? "btn text-lg font-medium hover:scale-110 duration-100" : "btn text-lg font-thin hover:scale-110 duration-100"} on:click={drawerClose}>Projects</a></li>
 		<li ><a href="/about" class={routeId === '/about' ? "btn text-lg font-medium hover:scale-110 duration-100" : "btn text-lg font-thin hover:scale-110 duration-100"} on:click={drawerClose}>About</a></li>
+		<li ><a href="/contact" class={routeId === '/contact' ? "btn text-lg font-medium hover:scale-110 duration-100" : "btn text-lg font-thin hover:scale-110 duration-100"} on:click={drawerClose}>Contact</a></li>
 	</ul>
 	<div class='flex flex-col items-center pb-8'>
 	<LightSwitch class="sm:hidden mb-2"/>
