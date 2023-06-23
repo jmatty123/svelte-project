@@ -1,6 +1,6 @@
 <script lang='ts'>
     import Map from '/src/components/Map.svelte';
-    import Orbit from '/src/components/threlte/OrbitSc.svelte';
+    import Knot from '/src/components/threlte/TorusKnotSc.svelte';
 </script>
 
 
@@ -16,14 +16,14 @@
             </div>
         </div>
     </a>
-    <a href="/projects/threlte-projects" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">
+    <a href="/projects/psql-database" class="card project-card bg-surface-100-800-token shadow-md hover:scale-105">
         <div class="content">
             <div class="m-auto h-full w-full flex items-center justify-center overflow-hidden scale-95">
-                <Orbit />
+                <Knot />
             </div>
             <div class='description bg-surface-200-700-token'>
-                <p class="font-thin text-xl">Threlte Components</p>
-                <p class="font-thin text-lg">6/8/23</p>
+                <p class="font-thin text-xl">PSQL Database</p>
+                <p class="font-thin text-lg">Coming soon!</p>
             </div>
         </div>
     </a>

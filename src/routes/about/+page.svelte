@@ -41,7 +41,7 @@
 {/if}
 
 	<button on:click={toggleVisibility} class="fixed bottom-[86px] hidden md:flex btn variant-filled-surface bg-surface-100-800-token text-black font-thin hover:scale-105 duration-100 shadow-md">
-		{$visibility ? 'Show Map' : 'Hide Map'}
+		{$visibility ? 'Where?' : 'Hide Map'}
 	</button>
 
 </div>
