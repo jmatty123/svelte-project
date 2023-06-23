@@ -5,7 +5,7 @@
     export let data: PageData;
   
     // Client API:
-    const { form } = superForm(data.form);
+    const { form } = superForm((data as any).form);
   </script>
   
   <form method="POST">
