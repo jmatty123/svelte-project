@@ -6,8 +6,8 @@
 
 <div class="flex flex-col justify-center sm:justify-start items-center sm:items-start max-w-screen-lg lg:mx-auto mt-10">
 <h1 class='mx-10 mb-3 text-center text-2xl font-thin'>Personal Website</h1>
-<h2 class="mx-10 mb-6 pt-3 text-lg font-thin border-t-[1px] border-current">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices nunc elit, sed commodo justo feugiat in. Aenean hendrerit lobortis semper. Pellentesque at nisl quis diam fringilla blandit eu quis arcu. Ut ultricies mi ante. Fusce aliquam, erat vel condimentum finibus, mauris lorem laoreet quam, quis ullamcorper nisl libero ac ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras vulputate convallis libero, maximus congue leo sodales id.
-
+<h2 class="mx-10 mb-6 pt-3 text-lg font-thin border-t-[1px] border-current">
+    Welcome to my personal portfolio website, my corner of the internet where you can explore my qualifications, projects, and reach out for any reason! I've designed this website with potential employers and individuals seeking my services in mind, aiming to create a comprehensive overview of my skills, experiences, and achievements. Built meticulously using the latest web technologies such as Svelte, Threlte, Tailwind CSS, Vite, and hosted on Vercel, the website not only showcases my abilities but also reflects my knowledge of and proficiency in modern web development practices. The site showcases some advanced features, such as Three.js elements rendered with Threlte that add a dash of interactivity and visual appeal. A Mapbox element is also integrated into the about page.
 </h2>
 
     <div class="logo-cloud rounded-none grid-cols-5 gap-1 sm:w-[420px] mx-1 sm:mx-10">

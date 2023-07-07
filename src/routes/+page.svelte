@@ -4,8 +4,8 @@
 
 
 <div class='h-full flex flex-col justify-center items-center'>
-    <h1 class='text-xl font-extralight text-center px-2'>Welcome to my website, my name is Matthew Young. </h1>
-    <div class="w-1/4">
+    <h1 class='text-2xl font-extralight text-center px-2'>Welcome to my website, my name is Matthew Young.</h1>
+    <div class="">
         <Orbit />
     </div>
 </div>
